@@ -11,7 +11,7 @@ The Spotify API describes the valence label as a measure from 0.0 to 1.0 describ
 
 Tracks with high valence arouses positive feelings such as happiness, cheerfulness, etc, while tracks with low valence arouses negative feelings such as sadness, depression, etc.
 
-For the extreme cases, that is the cases where the song demonstrates a high measure of negative or positive feelings, the labels have been converted into 0’s and 1’s and used to perform supervised NLP sentiment analysis.
+For the extreme cases, that is the cases where the song demonstrates a high measure of negative (<= 0.33) or a high measure of positive feelings (>= 0.67), the labels have been converted into 0’s and 1’s and used to perform supervised NLP sentiment analysis.
 
 
 
